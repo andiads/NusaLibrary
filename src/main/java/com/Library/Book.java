@@ -15,6 +15,7 @@ public class Book {
 	private double price;
 	private String pages;
 	private String bookshelf;
+	//mamen on board
 	
 	protected Book() {
 	}
@@ -89,6 +90,7 @@ public class Book {
 	public void setBookshelf(String bookshelf) {
 		this.bookshelf = bookshelf;
 	}
+	
 
 	
 	
