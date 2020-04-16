@@ -11,6 +11,8 @@ public class Mahasiswa {
 	private Long id;
 	private String name;
 	private String email;
+	private String fakultas;
+	private String jurusan;
 	private String course;
 	
 	protected Mahasiswa() {
@@ -19,11 +21,13 @@ public class Mahasiswa {
 
 	
 
-	public Mahasiswa(Long id, String name, String email, String course) {
+	public Mahasiswa(Long id, String name, String email, String fakultas, String jurusan, String course) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
+		this.fakultas = fakultas;
+		this.jurusan = jurusan;
 		this.course = course;
 	}
 
@@ -55,6 +59,20 @@ public class Mahasiswa {
 		this.email = email;
 	}
 
+	public String getFakultas() {
+		return fakultas;
+	}
+
+	public void setFakultas(String fakultas) {
+		this.fakultas = fakultas;
+	}
+	public String getJurusan() {
+		return jurusan;
+	}
+
+	public void setJurusan(String jurusan) {
+		this.jurusan = jurusan;
+	}
 	public String getCourse() {
 		return course;
 	}
