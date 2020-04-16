@@ -17,5 +17,9 @@ public class MahasiswaService {
 	public List<Mahasiswa> listAll() {
         return repo.findAll();
     }
+	
+	public void save(Mahasiswa mahasiswa) {
+        repo.save(mahasiswa);
+    }
 
 }
